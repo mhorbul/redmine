@@ -5,7 +5,7 @@ stderr_path "#{root}/log/unicorn.log"
 stdout_path "#{root}/log/unicorn.log"
 
 # Port configuration
-listen ENV['PORT']
+listen "127.0.0.1:#{ENV['PORT']}"
 worker_processes 2
 timeout 30
 
