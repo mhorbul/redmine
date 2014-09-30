@@ -84,6 +84,10 @@ group :development do
   gem "yard"
 end
 
+group :deployment do
+  gem "capistrano"
+end
+
 group :test do
   gem "shoulda", "~> 3.3.2"
   gem "mocha", "~> 1.0.0", :require => 'mocha/api'
