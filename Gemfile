@@ -86,6 +86,9 @@ end
 
 group :deployment do
   gem "capistrano"
+  gem "capistrano-rvm"
+  gem "capistrano-rails"
+  gem "capistrano-bundler"
 end
 
 group :test do
