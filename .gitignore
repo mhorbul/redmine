@@ -8,6 +8,7 @@
 /config/email.yml
 /config/initializers/session_store.rb
 /config/initializers/secret_token.rb
+/config/s3.yml
 /coverage
 /db/*.db
 /db/*.sqlite3
