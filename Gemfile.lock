@@ -121,6 +121,7 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     redcarpet (2.3.0)
+    redmine_github_hook (2.1.0)
     rmagick (2.13.3)
     ruby-openid (2.3.0)
     rubyzip (1.1.6)
@@ -189,6 +190,7 @@ DEPENDENCIES
   rake (~> 10.1.1)
   rdoc (>= 2.4.2)
   redcarpet (~> 2.3.0)
+  redmine_github_hook
   rmagick (>= 2.0.0)
   ruby-openid (~> 2.3.0)
   selenium-webdriver

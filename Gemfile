@@ -9,6 +9,8 @@ gem "builder", "3.0.0"
 gem "mime-types"
 gem "awesome_nested_set", "2.1.6"
 
+gem "redmine_github_hook"
+
 # Optional gem for LDAP authentication
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
