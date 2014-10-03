@@ -375,8 +375,8 @@ class Mailer < ActionMailer::Base
             'X-Redmine-Site' => Setting.app_title,
             'X-Auto-Response-Suppress' => 'OOF',
             'Auto-Submitted' => 'auto-generated',
-            'From' => Setting.mail_from,
-            'List-Id' => "<#{Setting.mail_from.to_s.gsub('@', '.')}>"
+            'From' => Setting.mail_from
+#            'List-Id' => "<#{Setting.mail_from.to_s.gsub('@', '.')}>"
 
     # Removes the author from the recipients and cc
     # if the author does not want to receive notifications
